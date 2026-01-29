@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mountain</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                 </div>
                 <ul class="header__nav-list">
                     <li class="header__nav-list_item">
-                        <a class="header__nav-list_item-link" id="unique" href="#">About</a>
+                        <a class="header__nav-list_item-link" href="#">About</a>
                     </li>
                     <li class="header__nav-list_item">
                         <a class="header__nav-list_item-link" href="#">Catalog</a>
@@ -45,11 +46,13 @@
     <section class="information">
         <div class="container information__wrap">
             <div class="information__img">
-                <img src="./img/inf_img.png" alt="">
+                <img class="information__img-full" src="./img/inf_img.png" alt="">
             </div>
             <div class="information__letter">
-                <h2 class="infromation__title">About US</h2>
-                <div class="title__undo"> </div>
+                <div class="information__title-adapt">
+                    <h2 class="infromation__title">About US</h2>
+                    <img class="information__title-line" src="./img/line.svg" alt="">
+                </div>
                 <ul class="desc__desc">
                     <li>We are a team of mountain lovers for whom travel is not just a hobby — it's a way of life.
                     </li>
@@ -65,8 +68,11 @@
     <section class="information2">
         <div class="container information__wrap2">
             <div class="information__letter2">
-                <div class="information__title2">Catalog</div>
-                <div class="title__undo2"></div>
+                <div class="information__title-adapt">
+                    <div class="information__title2">Catalog</div>
+                    <img class="information__title-line" src="./img/line.svg" alt="">
+                </div>
+
                 <div class="information__desc2">
                     <ul class="desc__desc">
                         <li>Our catalog features tried-and-true routes — from easy walks along scenic trails to
@@ -81,7 +87,7 @@
                 <a class="information__link" href="#">MORE</a>
             </div>
             <div class="information2_img">
-                <img src="./img/inf_img 2.png" alt="">
+                <img class="information2__img-full" src="./img/inf_img 2.png" alt="">
             </div>
         </div>
     </section>

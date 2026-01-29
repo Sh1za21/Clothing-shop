@@ -9,7 +9,9 @@
     font-family: "Share_Tech_Mono", sans-serif;
     font-weight: 400;
 }
-
+body{
+    min-width: 320px;
+}
 .container {
 
     max-width: 1140px;
@@ -47,13 +49,12 @@ header {
     font-size: 20px;
 
 }
-
-#unique {
-    border-bottom: 2px solid #242424;
+.header__nav-list_item-link:hover{
+    border-bottom: 1px solid #242424;
 }
 
 .banner {
-    height: 666px;
+    height: 80svh;
     background: url(../img/bg.png) no-repeat center bottom/cover;
 
 }
@@ -70,7 +71,7 @@ header {
     color: #242424;
     font-family: "Share_Tech_Mono", sans-serif;
     font-weight: 400;
-    font-size: 80px;
+    font-size: clamp(1.25rem, -0.213rem + 7.32vw, 5rem);
 }
 
 .banner__link {
@@ -106,7 +107,7 @@ header {
     gap: 20px;
 }
 
-.information__img {
+.information__img-full {
     max-width: 638px;
     width: 100%;
 }
@@ -116,6 +117,11 @@ header {
     flex-direction: column;
     gap: 20px;
 }
+.information__title-adapt{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
 
 .information__title {
     font-family: "Share_Tech_Mono", sans-serif;
@@ -124,6 +130,7 @@ header {
     color: #242424;
 
 }
+
 
 .information__desc {
     font-family: "Share_Tech_Mono";
@@ -192,8 +199,8 @@ header {
 
 }
 
-.information__img2 {
-    min-width: 545px;
+.information2__img-full {
+    max-width: 545px;
     width: 100%;
 }
 
